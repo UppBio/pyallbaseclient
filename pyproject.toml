@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyallbaseclient"
+version = "0.1.0"
+description = "A Python based client for Allbase's GraphQL to give it a native-code level access."
+authors = ["Radhakrishna Sanka <rkrishnasanka@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sgqlc = "^16.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+mypy = "^0.991"
+Sphinx = "^6.1.3"
+pylint = "^2.15.10"
+isort = "^5.11.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
